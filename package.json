@@ -1,19 +1,17 @@
 {
-  "name": "freakishlyorganized",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "freakislyorganized.com",
+  "version": "0.0.1",
+  "description": "Freakishly Organized",
+  "private": true,
+  "main": "server.js",
+  "keywords": [
+  ],
+  "author": "Eric Clifford",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.4.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/eclifford/freakishlyorganized.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/eclifford/freakishlyorganized/issues"
-  },
-  "homepage": "https://github.com/eclifford/freakishlyorganized"
+    "start": "node server.js"
+  }
 }
