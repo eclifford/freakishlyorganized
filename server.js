@@ -4,7 +4,8 @@ var express = require('express'),
 
 app.use(express.static(path.join(process.cwd(), 'public')));
 
-var server = app.listen(3000, function() {
+var port = process.env.PORT || 5000;
+var server = app.listen(port, function() {
     console.log('Listening on port %d', server.address().port);
 });
 
